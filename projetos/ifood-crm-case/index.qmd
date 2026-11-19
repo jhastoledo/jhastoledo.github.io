@@ -1,0 +1,29 @@
+---
+title: "Case iFood: otimização de campanha de CRM"
+description: "Case de analista de dados do iFood: análise de clientes e otimização de uma campanha de marketing de CRM."
+categories: [Negócios, Machine Learning]
+order: 6
+---
+
+## Problema
+
+Aumentar o retorno de uma campanha de marketing direcionando as ofertas aos clientes com maior chance de resposta.
+
+## Abordagem
+
+Análise exploratória do perfil dos clientes e modelagem para priorizar quem deve receber a campanha.
+
+## Tecnologias
+
+[Python]{.tag} [pandas]{.tag} [scikit-learn]{.tag} [CRM]{.tag}
+
+## Resultados
+
+<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
+
+*Os números e conclusões detalhadas estão no README do repositório.*
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/ifood-crm-case){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::

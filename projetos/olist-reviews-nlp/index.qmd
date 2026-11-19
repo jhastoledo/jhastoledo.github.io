@@ -1,0 +1,29 @@
+---
+title: "NLP de avaliações Olist"
+description: "Previsão da nota (1–5★) a partir do texto de avaliações em português: TF-IDF + modelos clássicos vs. fine-tuning do BERTimbau."
+categories: [NLP, Deep Learning]
+order: 2
+---
+
+## Problema
+
+Prever a nota de avaliação (alvo ordinal de 1 a 5 estrelas) a partir do texto escrito pelos clientes de um e-commerce brasileiro, e entender o que motiva as reclamações mais graves.
+
+## Abordagem
+
+Abordagem clássica (TF-IDF com Regressão Logística, SVM e LightGBM) comparada com fine-tuning de um transformer em português (BERTimbau), além de extração de tópicos das reclamações.
+
+## Tecnologias
+
+[Python]{.tag} [scikit-learn]{.tag} [LightGBM]{.tag} [Transformers]{.tag} [BERTimbau]{.tag}
+
+## Resultados
+
+<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
+
+*Os números e conclusões detalhadas estão no README do repositório.*
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/olist_reviews_nlp){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::

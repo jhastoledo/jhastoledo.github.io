@@ -1,0 +1,13 @@
+---
+title: "Resume"
+---
+
+::: {.cta}
+[Download resume (PDF)](../files/resume-jhonnes-toledo.pdf){.primary download="resume-jhonnes-toledo.pdf"}
+:::
+
+<!-- EDIT: save the English resume as files/resume-jhonnes-toledo.pdf -->
+
+<object class="pdf-embed" data="../files/resume-jhonnes-toledo.pdf" type="application/pdf">
+  <p>Your browser cannot display PDFs here. <a href="../files/resume-jhonnes-toledo.pdf">Open the resume as PDF</a>.</p>
+</object>

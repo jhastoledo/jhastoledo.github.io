@@ -1,0 +1,49 @@
+---
+title: "Jhonnes Toledo"
+subtitle: "Cientista de Dados · Físico (M.Sc. em Ciência dos Materiais)"
+image: images/foto.svg
+listing:
+  id: destaques
+  contents: projetos/*/index.qmd
+  type: default
+  sort: "order"
+  max-items: 3
+  fields: [title, description]
+  categories: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/jhastoledo
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/SEU-PERFIL
+    - icon: envelope
+      text: E-mail
+      href: mailto:contato@jhonnestoledo.com.br
+---
+
+[\> transformando dados em decisões]{.lead-mono}
+
+Sou físico de formação, com **mestrado em Ciência dos Materiais** e **pós-graduação em Ciência de Dados**.
+Da física trago o rigor do método científico: formular hipóteses, medir com cuidado e desconfiar de resultados bons demais.
+Hoje aplico essa base em **Python, SQL, estatística e machine learning** para resolver problemas de negócio de ponta a ponta,
+da exploração dos dados à comunicação dos resultados.
+
+Busco oportunidades como **Cientista de Dados Júnior** ou **Analista de Dados**.
+
+::: {.cta}
+[Ver projetos](projetos.qmd){.primary}
+[Sobre mim](sobre.qmd)
+[Currículo](curriculo.qmd)
+:::
+
+## Projetos em destaque
+
+::: {#destaques}
+:::
+
+[Ver todos os projetos →](projetos.qmd)

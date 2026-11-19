@@ -1,0 +1,29 @@
+---
+title: "E-commerce Analytics with SQL"
+description: "Relational modeling and SQL from basic to advanced on ~100k Brazilian e-commerce orders, focused on business questions."
+categories: [SQL, Data analysis]
+order: 3
+---
+
+## Problem
+
+Answer business questions about sales, customers, deliveries and reviews using about 100,000 orders from the Olist e-commerce dataset.
+
+## Approach
+
+Relational modeling of the dataset and progressively complex SQL queries, from simple aggregations to CTEs and window functions.
+
+## Technologies
+
+[SQL]{.tag} [Relational modeling]{.tag} [Python]{.tag}
+
+## Results
+
+<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
+
+*Detailed metrics and conclusions are in the repository README.*
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/olist_sql_analytics){.primary}
+[Back to projects](../../projects.qmd)
+:::

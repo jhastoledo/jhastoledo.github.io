@@ -1,0 +1,29 @@
+---
+title: "Credit Card Fraud Detection"
+description: "Classifying real fraudulent transactions under extreme class imbalance, on the classic ULB benchmark."
+categories: [Classification, Machine Learning]
+order: 4
+---
+
+## Problem
+
+Identify fraudulent credit card transactions from European cardholders (September 2013), where fraud is a tiny fraction of all transactions.
+
+## Approach
+
+Handling extreme class imbalance and choosing metrics suited to the problem, comparing classification models.
+
+## Technologies
+
+[Python]{.tag} [scikit-learn]{.tag} [Imbalanced classification]{.tag}
+
+## Results
+
+<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
+
+*Detailed metrics and conclusions are in the repository README.*
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/credit_card_fraud){.primary}
+[Back to projects](../../projects.qmd)
+:::

@@ -1,0 +1,29 @@
+---
+title: "Previsão de vendas Rossmann"
+description: "Previsão de vendas diárias de 1.115 lojas a 6 semanas: modelos estatísticos clássicos vs. um modelo global de machine learning."
+categories: [Séries temporais, Machine Learning]
+order: 1
+---
+
+## Problema
+
+Prever as vendas diárias de 1.115 lojas da rede Rossmann com 42 dias de antecedência, apoiando decisões de estoque e escala de equipe.
+
+## Abordagem
+
+Comparação entre modelos estatísticos clássicos especializados por loja e um único modelo de machine learning global treinado com todas as lojas.
+
+## Tecnologias
+
+[Python]{.tag} [pandas]{.tag} [Séries temporais]{.tag} [Machine Learning]{.tag}
+
+## Resultados
+
+<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
+
+*Os números e conclusões detalhadas estão no README do repositório.*
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/rossmann_forecast){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::

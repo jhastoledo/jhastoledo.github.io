@@ -1,0 +1,29 @@
+---
+title: "Rossmann Sales Forecasting"
+description: "Daily sales forecasting for 1,115 stores, 6 weeks ahead: classical statistical models vs. a single global machine learning model."
+categories: [Time series, Machine Learning]
+order: 1
+---
+
+## Problem
+
+Forecast daily sales for 1,115 Rossmann stores 42 days ahead, supporting inventory and staffing decisions.
+
+## Approach
+
+Comparison between classical statistical models fitted per store and a single global machine learning model trained on all stores.
+
+## Technologies
+
+[Python]{.tag} [pandas]{.tag} [Time series]{.tag} [Machine Learning]{.tag}
+
+## Results
+
+<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
+
+*Detailed metrics and conclusions are in the repository README.*
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/rossmann_forecast){.primary}
+[Back to projects](../../projects.qmd)
+:::

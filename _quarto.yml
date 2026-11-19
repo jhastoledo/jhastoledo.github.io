@@ -1,0 +1,44 @@
+# Configuração comum às duas línguas.
+# O conteúdo em português é gerado pelo perfil "pt" (padrão) e o inglês pelo perfil "en".
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - images/
+    - files/
+
+profile:
+  default: pt
+  group:
+    - [pt, en]
+
+website:
+  site-url: "https://jhonnestoledo.com.br"
+  repo-url: "https://github.com/jhastoledo/jhastoledo.github.io"
+  favicon: images/favicon.svg
+  open-graph: true
+  search: false
+  page-navigation: false
+  back-to-top-navigation: true
+  page-footer:
+    left: "© 2026 Jhonnes Toledo"
+    right:
+      - icon: github
+        href: https://github.com/jhastoledo
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/SEU-PERFIL
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:contato@jhonnestoledo.com.br
+        aria-label: E-mail
+
+format:
+  html:
+    theme: [cosmo, styles/github-dark.scss]
+    highlight-style: github-dark
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false

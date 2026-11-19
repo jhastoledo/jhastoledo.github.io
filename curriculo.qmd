@@ -1,0 +1,13 @@
+---
+title: "Currículo"
+---
+
+::: {.cta}
+[Baixar currículo (PDF)](files/curriculo-jhonnes-toledo.pdf){.primary download="curriculo-jhonnes-toledo.pdf"}
+:::
+
+<!-- EDITAR: salve o PDF atualizado em files/curriculo-jhonnes-toledo.pdf -->
+
+<object class="pdf-embed" data="files/curriculo-jhonnes-toledo.pdf" type="application/pdf">
+  <p>Seu navegador não exibe PDFs aqui. <a href="files/curriculo-jhonnes-toledo.pdf">Abra o currículo em PDF</a>.</p>
+</object>

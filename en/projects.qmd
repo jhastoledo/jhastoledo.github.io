@@ -1,0 +1,28 @@
+---
+title: "Projects"
+description: "Data Science projects, from the business problem to the result. The full code for each one is on GitHub."
+listing:
+  id: list
+  contents: projects/*/index.qmd
+  type: grid
+  grid-columns: 3
+  sort: "order"
+  categories: true
+  fields: [title, description, categories]
+  filter-ui: false
+  sort-ui: false
+---
+
+::: {#list}
+:::
+
+## More projects
+
+| Project | Topic |
+|---|---|
+| [co2_emissions_canada](https://github.com/jhastoledo/co2_emissions_canada) | Regression: vehicle CO₂ emissions from specifications |
+| [ibm-attrition](https://github.com/jhastoledo/ibm-attrition) | Classification: employee attrition prediction |
+| [customer_segmentation_online_retail](https://github.com/jhastoledo/customer_segmentation_online_retail) | Customer segmentation and RFM analysis in e-commerce |
+| [customer-segmentation-mall](https://github.com/jhastoledo/customer-segmentation-mall) | Customer clustering |
+| [wine_quality_capstone](https://github.com/jhastoledo/wine_quality_capstone) | Wine quality from physicochemical properties |
+| [california_housing](https://github.com/jhastoledo/california_housing) | Regression with California census data |

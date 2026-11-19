@@ -1,0 +1,54 @@
+---
+title: "About me"
+---
+
+## Background
+
+My education started in **Physics**, where I learned to model complex phenomena, work with experimental data and
+validate hypotheses with statistical rigor. In my **Master's in Physics, in Materials Science**,
+<!-- EDIT: describe your thesis topic and the data analysis techniques you used in 1–2 sentences. -->
+I deepened this quantitative side through applied research.
+
+My **postgraduate degree in Data Science** completed the transition: today I build complete analysis and modeling
+projects, focused on clear and reproducible results, all published on my [GitHub](https://github.com/jhastoledo).
+
+## Education
+
+<!-- EDIT: fill in institutions and years. -->
+
+| Degree | Institution | Period |
+|---|---|---|
+| Postgraduate degree in Data Science | [Institution] | [year] |
+| M.Sc. in Physics (Materials Science) | [Institution] | [year] |
+| B.Sc. in Physics | [Institution] | [year] |
+
+## Technical skills
+
+::: {.skills}
+::: {}
+#### Languages and data
+[Python]{.tag} [SQL]{.tag} [pandas]{.tag} [NumPy]{.tag}
+:::
+::: {}
+#### Statistics
+[Inference]{.tag} [Hypothesis testing]{.tag} [Regression]{.tag} [Time series]{.tag}
+:::
+::: {}
+#### Machine Learning
+[scikit-learn]{.tag} [LightGBM]{.tag} [Ray Tune]{.tag} [NLP / BERTimbau]{.tag}
+:::
+::: {}
+#### Visualization
+[Matplotlib]{.tag} [Seaborn]{.tag} [Folium / GeoPandas]{.tag}
+:::
+::: {}
+#### Tools
+[Git & GitHub]{.tag} [JupyterLab]{.tag} [Quarto]{.tag}
+:::
+:::
+
+## What I am looking for
+
+I want to work as a **Junior Data Scientist** or **Data Analyst**, in teams that value evidence-based decisions.
+I am especially interested in <!-- EDIT: e.g., demand forecasting, predictive modeling, NLP --> and in turning
+technical analyses into practical business recommendations.

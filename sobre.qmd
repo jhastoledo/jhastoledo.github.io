@@ -1,0 +1,56 @@
+---
+title: "Sobre mim"
+---
+
+## Trajetória
+
+Minha formação começou na **Física**, onde aprendi a modelar fenômenos complexos, trabalhar com dados experimentais e
+validar hipóteses com rigor estatístico. No **mestrado em Física, na área de Ciência dos Materiais**,
+<!-- EDITAR: descreva em 1–2 frases o tema da dissertação e as técnicas de análise de dados que você usou. -->
+aprofundei esse lado quantitativo em pesquisa aplicada.
+
+A **pós-graduação em Ciência de Dados** consolidou a transição: hoje desenvolvo projetos completos de análise e
+modelagem, com foco em resultados claros e reprodutíveis, todos publicados no meu [GitHub](https://github.com/jhastoledo).
+
+## Formação
+
+<!-- EDITAR: preencha instituições e anos. -->
+
+| Formação | Instituição | Período |
+|---|---|---|
+| Pós-graduação em Ciência de Dados | [Instituição] | [ano] |
+| Mestrado em Física (Ciência dos Materiais) | [Instituição] | [ano] |
+| Bacharelado em Física | [Instituição] | [ano] |
+
+## Habilidades técnicas
+
+::: {.skills}
+::: {}
+#### Linguagens e dados
+[Python]{.tag} [SQL]{.tag} [pandas]{.tag} [NumPy]{.tag}
+:::
+::: {}
+#### Estatística
+[Inferência]{.tag} [Testes de hipótese]{.tag} [Regressão]{.tag} [Séries temporais]{.tag}
+:::
+::: {}
+#### Machine Learning
+[scikit-learn]{.tag} [LightGBM]{.tag} [Ray Tune]{.tag} [NLP / BERTimbau]{.tag}
+:::
+::: {}
+#### Visualização
+[Matplotlib]{.tag} [Seaborn]{.tag} [Folium / GeoPandas]{.tag}
+:::
+::: {}
+#### Ferramentas
+[Git e GitHub]{.tag} [JupyterLab]{.tag} [Quarto]{.tag}
+:::
+:::
+
+<!-- EDITAR: ajuste as etiquetas acima para refletir exatamente o que você usa. -->
+
+## O que busco
+
+Quero atuar como **Cientista de Dados Júnior** ou **Analista de Dados**, em times que valorizem decisões baseadas em
+evidências. Tenho interesse especial em <!-- EDITAR: ex.: previsão de demanda, modelagem preditiva, NLP --> e em
+traduzir análises técnicas em recomendações práticas para o negócio.

@@ -1,0 +1,49 @@
+---
+title: "Jhonnes Toledo"
+subtitle: "Data Scientist · Physicist (M.Sc. in Materials Science)"
+image: ../images/foto.svg
+listing:
+  id: highlights
+  contents: projects/*/index.qmd
+  type: default
+  sort: "order"
+  max-items: 3
+  fields: [title, description]
+  categories: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/jhastoledo
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/SEU-PERFIL
+    - icon: envelope
+      text: Email
+      href: mailto:contato@jhonnestoledo.com.br
+---
+
+[\> turning data into decisions]{.lead-mono}
+
+I am a physicist with a **Master's degree in Materials Science** and a **postgraduate degree in Data Science**.
+Physics taught me the rigor of the scientific method: forming hypotheses, measuring carefully and distrusting results
+that look too good. Today I apply that foundation with **Python, SQL, statistics and machine learning** to solve business
+problems end to end, from data exploration to communicating results.
+
+I am looking for opportunities as a **Junior Data Scientist** or **Data Analyst**.
+
+::: {.cta}
+[See projects](projects.qmd){.primary}
+[About me](about.qmd)
+[Resume](resume.qmd)
+:::
+
+## Featured projects
+
+::: {#highlights}
+:::
+
+[See all projects →](projects.qmd)

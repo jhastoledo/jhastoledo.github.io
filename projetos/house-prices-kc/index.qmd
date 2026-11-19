@@ -1,0 +1,29 @@
+---
+title: "Preço de imóveis em King County"
+description: "Predição do preço de 21.613 casas na região de Seattle, com análise geográfica (GeoPandas + Folium) e otimização com Ray Tune."
+categories: [Regressão, Dados geoespaciais]
+order: 5
+---
+
+## Problema
+
+Prever o preço de venda de 21.613 casas vendidas em King County (região de Seattle) entre 2014 e 2015.
+
+## Abordagem
+
+Análise geográfica com GeoPandas e Folium, transformação logarítmica do alvo e otimização de hiperparâmetros com Ray Tune.
+
+## Tecnologias
+
+[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag}
+
+## Resultados
+
+<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
+
+*Os números e conclusões detalhadas estão no README do repositório.*
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/house_prices_kc){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::
