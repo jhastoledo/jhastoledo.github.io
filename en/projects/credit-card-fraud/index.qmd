@@ -15,13 +15,11 @@ Handling extreme class imbalance and choosing metrics suited to the problem, com
 
 ## Technologies
 
-[Python]{.tag} [scikit-learn]{.tag} [Imbalanced classification]{.tag}
+[Python]{.tag} [scikit-learn]{.tag} [Imbalanced classification]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag} [Streamlit]{.tag}
 
 ## Results
 
-<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
-
-*Detailed metrics and conclusions are in the repository README.*
+With a **578:1** imbalance across 284,807 transactions, the model reached **PR-AUC 0.826**, recall 0.811 and precision 0.951 at a 0.264 threshold, chosen from the precision-recall curve rather than the 0.5 default. PR-AUC was used instead of ROC-AUC, which is misleading under extreme imbalance.
 
 ::: {.cta}
 [View code on GitHub](https://github.com/jhastoledo/credit_card_fraud){.primary}

@@ -7,7 +7,7 @@ order: 1
 
 ## Problem
 
-Forecast daily sales for 1,115 Rossmann stores 42 days ahead, supporting inventory and staffing decisions.
+Forecast daily sales for 1,115 Rossmann stores 42 days ahead.
 
 ## Approach
 
@@ -15,13 +15,11 @@ Comparison between classical statistical models fitted per store and a single gl
 
 ## Technologies
 
-[Python]{.tag} [pandas]{.tag} [Time series]{.tag} [Machine Learning]{.tag}
+[Python]{.tag} [pandas]{.tag} [Time series]{.tag} [Machine Learning]{.tag} [Walk-forward validation]{.tag} [Optuna]{.tag} [SHAP]{.tag} [Streamlit]{.tag}
 
 ## Results
 
-<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
-
-*Detailed metrics and conclusions are in the repository README.*
+A single global model (LightGBM) reached **RMSPE 0.1321** and **MAPE 9.7%** on the test set, beating the specialized SARIMAX in 3 of the 4 series compared. The project also documents where the classical model still wins: the 17 stores with atypical behavior.
 
 ::: {.cta}
 [View code on GitHub](https://github.com/jhastoledo/rossmann_forecast){.primary}

@@ -15,13 +15,11 @@ Classical approach (TF-IDF with Logistic Regression, SVM and LightGBM) compared 
 
 ## Technologies
 
-[Python]{.tag} [scikit-learn]{.tag} [LightGBM]{.tag} [Transformers]{.tag} [BERTimbau]{.tag}
+[Python]{.tag} [scikit-learn]{.tag} [LightGBM]{.tag} [Transformers]{.tag} [BERTimbau]{.tag} [PyTorch]{.tag} [Streamlit]{.tag}
 
 ## Results
 
-<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
-
-*Detailed metrics and conclusions are in the repository README.*
+Fine-tuned BERTimbau reached **QWK 0.8640**, versus 0.8169 for TF-IDF + SVM. But the SVM is about **147x faster** at inference and needs no GPU, and the project records that trade-off, not just the winner.
 
 ::: {.cta}
 [View code on GitHub](https://github.com/jhastoledo/olist_reviews_nlp){.primary}

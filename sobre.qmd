@@ -4,53 +4,63 @@ title: "Sobre mim"
 
 ## Trajetória
 
-Minha formação começou na **Física**, onde aprendi a modelar fenômenos complexos, trabalhar com dados experimentais e
-validar hipóteses com rigor estatístico. No **mestrado em Física, na área de Ciência dos Materiais**,
-<!-- EDITAR: descreva em 1–2 frases o tema da dissertação e as técnicas de análise de dados que você usou. -->
-aprofundei esse lado quantitativo em pesquisa aplicada.
+Sou de **Juiz de Fora (MG)** e minha formação começou na **Física**, na Universidade Federal de Juiz de Fora (UFJF).
+No **mestrado em Física, na área de Ciência dos Materiais**, e como pesquisador em física aplicada, trabalhei com
+modelagem de sistemas complexos e análise quantitativa de dados experimentais em Python: propagação de incerteza,
+validação de modelos contra medidas e comunicação técnica de resultados.
 
-A **pós-graduação em Ciência de Dados** consolidou a transição: hoje desenvolvo projetos completos de análise e
-modelagem, com foco em resultados claros e reprodutíveis, todos publicados no meu [GitHub](https://github.com/jhastoledo).
+A **especialização em Ciência de Dados** consolidou a transição. Desde então desenvolvo projetos completos, do dado cru
+ao aplicativo publicado, com dados tabulares, séries temporais e texto em português. Em todos sigo o mesmo método:
+um baseline explícito antes de qualquer modelo complexo, a métrica escolhida pelo problema (PR-AUC sob desbalanceamento,
+QWK em alvo ordinal, RMSPE em previsão) e SHAP para explicar o que o modelo aprendeu.
+
+## Experiência
+
+| Atuação | Onde | Período |
+|---|---|---|
+| Cientista de Dados — projetos independentes (12 projetos publicados) | Portfólio próprio · Remoto | abr/2026 – atual |
+| Pesquisador em Física Aplicada | Universidade Federal de Juiz de Fora | abr/2022 – set/2024 |
 
 ## Formação
 
-<!-- EDITAR: preencha instituições e anos. -->
-
 | Formação | Instituição | Período |
 |---|---|---|
-| Pós-graduação em Ciência de Dados | [Instituição] | [ano] |
-| Mestrado em Física (Ciência dos Materiais) | [Instituição] | [ano] |
-| Bacharelado em Física | [Instituição] | [ano] |
+| Especialização em Ciência de Dados | UNINASSAU | 2025 |
+| Mestrado em Física (Ciência dos Materiais) | Universidade Federal de Juiz de Fora | 2022 – 2024 |
+| Bacharelado em Física | Universidade Federal de Juiz de Fora | 2019 – 2022 |
+
+**Certificações:** Ciência de Dados Impressionador (Hashtag Treinamentos, 2026) · Algoritmos e Lógica de Programação (Hashtag Treinamentos, 2026)
 
 ## Habilidades técnicas
 
 ::: {.skills}
 ::: {}
-#### Linguagens e dados
-[Python]{.tag} [SQL]{.tag} [pandas]{.tag} [NumPy]{.tag}
+#### Linguagens
+[Python]{.tag} [SQL]{.tag} [CTEs]{.tag} [Window functions]{.tag}
 :::
 ::: {}
-#### Estatística
-[Inferência]{.tag} [Testes de hipótese]{.tag} [Regressão]{.tag} [Séries temporais]{.tag}
+#### Modelagem
+[scikit-learn]{.tag} [XGBoost]{.tag} [LightGBM]{.tag} [statsmodels]{.tag} [Prophet]{.tag} [PyTorch]{.tag} [BERTimbau]{.tag}
 :::
 ::: {}
-#### Machine Learning
-[scikit-learn]{.tag} [LightGBM]{.tag} [Ray Tune]{.tag} [NLP / BERTimbau]{.tag}
+#### Interpretabilidade e tuning
+[SHAP]{.tag} [Optuna]{.tag} [Ray Tune]{.tag} [Testes de hipótese]{.tag}
 :::
 ::: {}
-#### Visualização
-[Matplotlib]{.tag} [Seaborn]{.tag} [Folium / GeoPandas]{.tag}
+#### Visualização e BI
+[Power BI]{.tag} [Matplotlib]{.tag} [Seaborn]{.tag} [Plotly]{.tag} [GeoPandas]{.tag} [Folium]{.tag}
 :::
 ::: {}
-#### Ferramentas
-[Git e GitHub]{.tag} [JupyterLab]{.tag} [Quarto]{.tag}
+#### Entrega
+[Streamlit]{.tag} [Git/GitHub]{.tag} [JupyterLab]{.tag} [conda]{.tag} [SQLite]{.tag}
+:::
+::: {}
+#### Familiaridade
+[R]{.tag} [AWS (fundamentos)]{.tag}
 :::
 :::
-
-<!-- EDITAR: ajuste as etiquetas acima para refletir exatamente o que você usa. -->
 
 ## O que busco
 
 Quero atuar como **Cientista de Dados Júnior** ou **Analista de Dados**, em times que valorizem decisões baseadas em
-evidências. Tenho interesse especial em <!-- EDITAR: ex.: previsão de demanda, modelagem preditiva, NLP --> e em
-traduzir análises técnicas em recomendações práticas para o negócio.
+evidências e onde eu possa transformar análises técnicas em recomendações práticas para o negócio.

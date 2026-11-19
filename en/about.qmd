@@ -4,51 +4,63 @@ title: "About me"
 
 ## Background
 
-My education started in **Physics**, where I learned to model complex phenomena, work with experimental data and
-validate hypotheses with statistical rigor. In my **Master's in Physics, in Materials Science**,
-<!-- EDIT: describe your thesis topic and the data analysis techniques you used in 1–2 sentences. -->
-I deepened this quantitative side through applied research.
+I am from **Juiz de Fora, Brazil**, and my education started in **Physics** at the Federal University of Juiz de Fora (UFJF).
+During my **Master's in Physics (Materials Science)** and as a researcher in applied physics, I worked on modeling complex
+systems and quantitative analysis of experimental data in Python: uncertainty propagation, validating models against
+measurements and communicating technical results.
 
-My **postgraduate degree in Data Science** completed the transition: today I build complete analysis and modeling
-projects, focused on clear and reproducible results, all published on my [GitHub](https://github.com/jhastoledo).
+My **postgraduate degree in Data Science** completed the transition. Since then I have built complete projects, from raw
+data to deployed apps, with tabular data, time series and Portuguese text. I follow the same method in all of them:
+an explicit baseline before any complex model, a metric chosen for the problem (PR-AUC under imbalance, QWK for ordinal
+targets, RMSPE for forecasting) and SHAP to explain what the model learned.
+
+## Experience
+
+| Role | Where | Period |
+|---|---|---|
+| Data Scientist — independent projects (12 published projects) | Personal portfolio · Remote | Apr 2026 – present |
+| Applied Physics Researcher | Federal University of Juiz de Fora | Apr 2022 – Sep 2024 |
 
 ## Education
 
-<!-- EDIT: fill in institutions and years. -->
-
 | Degree | Institution | Period |
 |---|---|---|
-| Postgraduate degree in Data Science | [Institution] | [year] |
-| M.Sc. in Physics (Materials Science) | [Institution] | [year] |
-| B.Sc. in Physics | [Institution] | [year] |
+| Postgraduate degree in Data Science | UNINASSAU | 2025 |
+| M.Sc. in Physics (Materials Science) | Federal University of Juiz de Fora | 2022 – 2024 |
+| B.Sc. in Physics | Federal University of Juiz de Fora | 2019 – 2022 |
+
+**Certifications:** Ciência de Dados Impressionador (Hashtag Treinamentos, 2026) · Algorithms and Programming Logic (Hashtag Treinamentos, 2026)
 
 ## Technical skills
 
 ::: {.skills}
 ::: {}
-#### Languages and data
-[Python]{.tag} [SQL]{.tag} [pandas]{.tag} [NumPy]{.tag}
+#### Languages
+[Python]{.tag} [SQL]{.tag} [CTEs]{.tag} [Window functions]{.tag}
 :::
 ::: {}
-#### Statistics
-[Inference]{.tag} [Hypothesis testing]{.tag} [Regression]{.tag} [Time series]{.tag}
+#### Modeling
+[scikit-learn]{.tag} [XGBoost]{.tag} [LightGBM]{.tag} [statsmodels]{.tag} [Prophet]{.tag} [PyTorch]{.tag} [BERTimbau]{.tag}
 :::
 ::: {}
-#### Machine Learning
-[scikit-learn]{.tag} [LightGBM]{.tag} [Ray Tune]{.tag} [NLP / BERTimbau]{.tag}
+#### Interpretability & tuning
+[SHAP]{.tag} [Optuna]{.tag} [Ray Tune]{.tag} [Hypothesis testing]{.tag}
 :::
 ::: {}
-#### Visualization
-[Matplotlib]{.tag} [Seaborn]{.tag} [Folium / GeoPandas]{.tag}
+#### Visualization & BI
+[Power BI]{.tag} [Matplotlib]{.tag} [Seaborn]{.tag} [Plotly]{.tag} [GeoPandas]{.tag} [Folium]{.tag}
 :::
 ::: {}
-#### Tools
-[Git & GitHub]{.tag} [JupyterLab]{.tag} [Quarto]{.tag}
+#### Delivery
+[Streamlit]{.tag} [Git/GitHub]{.tag} [JupyterLab]{.tag} [conda]{.tag} [SQLite]{.tag}
+:::
+::: {}
+#### Familiar with
+[R]{.tag} [AWS (fundamentals)]{.tag}
 :::
 :::
 
 ## What I am looking for
 
-I want to work as a **Junior Data Scientist** or **Data Analyst**, in teams that value evidence-based decisions.
-I am especially interested in <!-- EDIT: e.g., demand forecasting, predictive modeling, NLP --> and in turning
-technical analyses into practical business recommendations.
+I want to work as a **Junior Data Scientist** or **Data Analyst**, in teams that value evidence-based decisions, where I
+can turn technical analyses into practical business recommendations.

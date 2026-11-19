@@ -1,7 +1,7 @@
 ---
 title: "Jhonnes Toledo"
 subtitle: "Cientista de Dados · Físico (M.Sc. em Ciência dos Materiais)"
-image: images/foto.svg
+image: images/foto.jpg
 listing:
   id: destaques
   contents: projetos/*/index.qmd
@@ -20,7 +20,7 @@ about:
       href: https://github.com/jhastoledo
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/SEU-PERFIL
+      href: https://www.linkedin.com/in/jhastoledo/
     - icon: envelope
       text: E-mail
       href: mailto:contato@jhonnestoledo.com.br
@@ -28,7 +28,7 @@ about:
 
 [\> transformando dados em decisões]{.lead-mono}
 
-Sou físico de formação, com **mestrado em Ciência dos Materiais** e **pós-graduação em Ciência de Dados**.
+Sou **mestre em Física pela UFJF** (Ciência dos Materiais) e **especialista em Ciência de Dados**, com **12 projetos publicados** que vão do modelo relacional em SQL ao aplicativo em produção.
 Da física trago o rigor do método científico: formular hipóteses, medir com cuidado e desconfiar de resultados bons demais.
 Hoje aplico essa base em **Python, SQL, estatística e machine learning** para resolver problemas de negócio de ponta a ponta,
 da exploração dos dados à comunicação dos resultados.

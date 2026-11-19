@@ -6,6 +6,6 @@ I am open to opportunities, conversations about data and networking. The fastest
 
 ::: {.cta}
 [contato@jhonnestoledo.com.br](mailto:contato@jhonnestoledo.com.br){.primary}
-[LinkedIn](https://www.linkedin.com/in/SEU-PERFIL)
+[LinkedIn](https://www.linkedin.com/in/jhastoledo/)
 [GitHub](https://github.com/jhastoledo)
 :::

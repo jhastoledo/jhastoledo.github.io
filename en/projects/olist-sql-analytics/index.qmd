@@ -15,13 +15,11 @@ Relational modeling of the dataset and progressively complex SQL queries, from s
 
 ## Technologies
 
-[SQL]{.tag} [Relational modeling]{.tag} [Python]{.tag}
+[SQL]{.tag} [Relational modeling]{.tag} [Python]{.tag} [SQLite]{.tag} [EXPLAIN QUERY PLAN]{.tag} [RFM]{.tag}
 
 ## Results
 
-<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
-
-*Detailed metrics and conclusions are in the repository README.*
+A 9-table model with primary and foreign keys and 30 versioned queries. Key findings: **17.6% of sellers account for 80% of revenue**, and delivery delays only hurt reviews beyond 7 days (from 4.29 to 1.71 stars).
 
 ::: {.cta}
 [View code on GitHub](https://github.com/jhastoledo/olist_sql_analytics){.primary}

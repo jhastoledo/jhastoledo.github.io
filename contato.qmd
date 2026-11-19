@@ -6,6 +6,6 @@ Estou aberto a oportunidades, conversas sobre dados e networking. A forma mais r
 
 ::: {.cta}
 [contato@jhonnestoledo.com.br](mailto:contato@jhonnestoledo.com.br){.primary}
-[LinkedIn](https://www.linkedin.com/in/SEU-PERFIL)
+[LinkedIn](https://www.linkedin.com/in/jhastoledo/)
 [GitHub](https://github.com/jhastoledo)
 :::

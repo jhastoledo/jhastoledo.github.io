@@ -15,13 +15,11 @@ Tratamento do desbalanceamento extremo e escolha de métricas adequadas ao probl
 
 ## Tecnologias
 
-[Python]{.tag} [scikit-learn]{.tag} [Classificação desbalanceada]{.tag}
+[Python]{.tag} [scikit-learn]{.tag} [Classificação desbalanceada]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag} [Streamlit]{.tag}
 
 ## Resultados
 
-<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
-
-*Os números e conclusões detalhadas estão no README do repositório.*
+Com desbalanceamento de **578:1** em 284.807 transações, o modelo chegou a **PR-AUC 0,826**, recall 0,811 e precisão 0,951 no limiar 0,264, escolhido pela curva precisão-recall e não pelo padrão de 0,5. O PR-AUC foi usado no lugar do ROC-AUC, que engana sob desbalanceamento extremo.
 
 ::: {.cta}
 [Ver código no GitHub](https://github.com/jhastoledo/credit_card_fraud){.primary}

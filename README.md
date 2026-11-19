@@ -35,10 +35,6 @@ Cada `push` na branch `main` dispara o workflow `.github/workflows/publish.yml`,
 
 ## Pendências de conteúdo
 
-Procure por `EDITAR` / `EDIT` e `SEU-PERFIL` nos arquivos:
-- [ ] Link do LinkedIn (`SEU-PERFIL`)
-- [ ] Foto: salve `images/foto.jpg` e troque `foto.svg` por `foto.jpg` em `index.qmd` e `en/index.qmd`
-- [ ] Currículos: `files/curriculo-jhonnes-toledo.pdf` e `files/resume-jhonnes-toledo.pdf`
-- [ ] Instituições e anos da formação (`sobre.qmd`, `en/about.qmd`)
-- [ ] Tema da dissertação e áreas de interesse
-- [ ] Resultados de cada projeto
+- [ ] Resultados de `house-prices-kc` e `ifood-crm-case` (procure por `EDITAR` / `EDIT`)
+- [ ] Currículo em inglês: salve `files/resume-jhonnes-toledo.pdf` e atualize `en/resume.qmd`
+- [ ] Para atualizar o currículo, substitua `files/curriculo-jhonnes-toledo.pdf` mantendo o mesmo nome

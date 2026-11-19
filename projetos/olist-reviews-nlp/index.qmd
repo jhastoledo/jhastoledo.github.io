@@ -15,13 +15,11 @@ Abordagem clássica (TF-IDF com Regressão Logística, SVM e LightGBM) comparada
 
 ## Tecnologias
 
-[Python]{.tag} [scikit-learn]{.tag} [LightGBM]{.tag} [Transformers]{.tag} [BERTimbau]{.tag}
+[Python]{.tag} [scikit-learn]{.tag} [LightGBM]{.tag} [Transformers]{.tag} [BERTimbau]{.tag} [PyTorch]{.tag} [Streamlit]{.tag}
 
 ## Resultados
 
-<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
-
-*Os números e conclusões detalhadas estão no README do repositório.*
+O BERTimbau fine-tunado alcançou **QWK 0,8640**, contra 0,8169 do TF-IDF + SVM. Mas o SVM é cerca de **147x mais rápido** em inferência e dispensa GPU, e o projeto registra esse trade-off, não só o vencedor.
 
 ::: {.cta}
 [Ver código no GitHub](https://github.com/jhastoledo/olist_reviews_nlp){.primary}

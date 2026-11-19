@@ -15,13 +15,11 @@ Modelagem relacional do conjunto de dados e consultas SQL progressivas, de agreg
 
 ## Tecnologias
 
-[SQL]{.tag} [Modelagem relacional]{.tag} [Python]{.tag}
+[SQL]{.tag} [Modelagem relacional]{.tag} [Python]{.tag} [SQLite]{.tag} [EXPLAIN QUERY PLAN]{.tag} [RFM]{.tag}
 
 ## Resultados
 
-<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
-
-*Os números e conclusões detalhadas estão no README do repositório.*
+Modelagem de 9 tabelas com chaves primárias e estrangeiras e 30 consultas versionadas. Principais achados: **17,6% dos vendedores concentram 80% da receita**, e o atraso na entrega só derruba a avaliação quando passa de 7 dias (de 4,29 para 1,71 estrelas).
 
 ::: {.cta}
 [Ver código no GitHub](https://github.com/jhastoledo/olist_sql_analytics){.primary}
