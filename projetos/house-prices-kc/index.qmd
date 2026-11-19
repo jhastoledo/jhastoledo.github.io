@@ -15,13 +15,11 @@ Análise geográfica com GeoPandas e Folium, transformação logarítmica do alv
 
 ## Tecnologias
 
-[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag}
+[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag}
 
 ## Resultados
 
-<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
-
-*Os números e conclusões detalhadas estão no README do repositório.*
+O XGBoost otimizado com Ray Tune + Optuna alcançou **R² 0,911** (escala log), **MAPE 11,5%** e MAE de US$ 64.191, contra MAPE de 43,8% do baseline e 19,9% da regressão linear. A análise SHAP mostrou que a vista para a água, presente em só 163 casas, eleva o preço em cerca de 35% quando existe.
 
 ::: {.cta}
 [Ver código no GitHub](https://github.com/jhastoledo/house_prices_kc){.primary}

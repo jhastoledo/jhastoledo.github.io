@@ -15,13 +15,11 @@ Geographic analysis with GeoPandas and Folium, log transformation of the target 
 
 ## Technologies
 
-[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag}
+[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag}
 
 ## Results
 
-<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
-
-*Detailed metrics and conclusions are in the repository README.*
+XGBoost tuned with Ray Tune + Optuna reached **R² 0.911** (log scale), **MAPE 11.5%** and MAE of US$64,191, versus 43.8% MAPE for the baseline and 19.9% for linear regression. SHAP analysis showed that waterfront, present in only 163 houses, raises the price by about 35% when it exists.
 
 ::: {.cta}
 [View code on GitHub](https://github.com/jhastoledo/house_prices_kc){.primary}

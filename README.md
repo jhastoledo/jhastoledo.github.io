@@ -35,6 +35,6 @@ Cada `push` na branch `main` dispara o workflow `.github/workflows/publish.yml`,
 
 ## Pendências de conteúdo
 
-- [ ] Resultados de `house-prices-kc` e `ifood-crm-case` (procure por `EDITAR` / `EDIT`)
+- [ ] Currículo com o e-mail `contato@jhonnestoledo.com.br`
 - [ ] Currículo em inglês: salve `files/resume-jhonnes-toledo.pdf` e atualize `en/resume.qmd`
 - [ ] Para atualizar o currículo, substitua `files/curriculo-jhonnes-toledo.pdf` mantendo o mesmo nome

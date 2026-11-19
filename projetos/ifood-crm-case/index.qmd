@@ -15,13 +15,11 @@ Análise exploratória do perfil dos clientes e modelagem para priorizar quem de
 
 ## Tecnologias
 
-[Python]{.tag} [pandas]{.tag} [scikit-learn]{.tag} [CRM]{.tag}
+[Python]{.tag} [pandas]{.tag} [scikit-learn]{.tag} [CRM]{.tag} [Regressão Logística]{.tag} [K-Means]{.tag} [SHAP]{.tag}
 
 ## Resultados
 
-<!-- EDITAR: resuma aqui a métrica principal e o que ela significa para o negócio (ex.: erro de previsão, F1, ganho estimado). -->
-
-*Os números e conclusões detalhadas estão no README do repositório.*
+Uma Regressão Logística com pré-processamento cuidadoso superou o XGBoost (**ROC-AUC 0,933**, PR-AUC 0,737, recall 92%). Com o limiar escolhido pelo lucro (0,45), a campanha passa de **−3.046 MU para +279 MU**, capturando **90% do lucro máximo possível**. A segmentação K-Means identificou o grupo Premium, com taxa de resposta de 31,9%.
 
 ::: {.cta}
 [Ver código no GitHub](https://github.com/jhastoledo/ifood-crm-case){.primary}

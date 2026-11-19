@@ -15,13 +15,11 @@ Exploratory analysis of customer profiles and modeling to prioritize who should 
 
 ## Technologies
 
-[Python]{.tag} [pandas]{.tag} [scikit-learn]{.tag} [CRM]{.tag}
+[Python]{.tag} [pandas]{.tag} [scikit-learn]{.tag} [CRM]{.tag} [Logistic Regression]{.tag} [K-Means]{.tag} [SHAP]{.tag}
 
 ## Results
 
-<!-- EDIT: summarize the main metric and what it means for the business (e.g., forecast error, F1, estimated gain). -->
-
-*Detailed metrics and conclusions are in the repository README.*
+A carefully preprocessed Logistic Regression outperformed XGBoost (**ROC-AUC 0.933**, PR-AUC 0.737, 92% recall). With the threshold chosen for profit (0.45), the campaign goes from **−3,046 MU to +279 MU**, capturing **90% of the maximum possible profit**. K-Means segmentation identified a Premium group with a 31.9% response rate.
 
 ::: {.cta}
 [View code on GitHub](https://github.com/jhastoledo/ifood-crm-case){.primary}
