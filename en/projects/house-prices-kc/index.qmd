@@ -1,0 +1,27 @@
+---
+title: "King County House Prices"
+description: "Predicting prices of 21,613 houses in the Seattle area, with geographic analysis (GeoPandas + Folium) and Ray Tune optimization."
+categories: [Regression, Geospatial data]
+order: 5
+---
+
+## Problem
+
+Predict the sale price of 21,613 houses sold in King County (Seattle area) between 2014 and 2015.
+
+## Approach
+
+Geographic analysis with GeoPandas and Folium, log transformation of the target and hyperparameter optimization with Ray Tune.
+
+## Technologies
+
+[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag}
+
+## Results
+
+XGBoost tuned with Ray Tune + Optuna reached **R² 0.911** (log scale), **MAPE 11.5%** and MAE of US$64,191, versus 43.8% MAPE for the baseline and 19.9% for linear regression. SHAP analysis showed that waterfront, present in only 163 houses, raises the price by about 35% when it exists.
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/house_prices_kc){.primary}
+[Back to projects](../../projects.qmd)
+:::

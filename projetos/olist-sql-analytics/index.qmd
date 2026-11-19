@@ -1,0 +1,27 @@
+---
+title: "Análise de e-commerce com SQL"
+description: "Modelagem relacional e SQL do básico ao avançado sobre ~100 mil pedidos de e-commerce brasileiro, com foco em perguntas de negócio."
+categories: [SQL, Análise de dados]
+order: 3
+---
+
+## Problema
+
+Responder perguntas de negócio sobre vendas, clientes, entregas e avaliações a partir de cerca de 100 mil pedidos do e-commerce Olist.
+
+## Abordagem
+
+Modelagem relacional do conjunto de dados e consultas SQL progressivas, de agregações simples a CTEs e funções de janela.
+
+## Tecnologias
+
+[SQL]{.tag} [Modelagem relacional]{.tag} [Python]{.tag} [SQLite]{.tag} [EXPLAIN QUERY PLAN]{.tag} [RFM]{.tag}
+
+## Resultados
+
+Modelagem de 9 tabelas com chaves primárias e estrangeiras e 30 consultas versionadas. Principais achados: **17,6% dos vendedores concentram 80% da receita**, e o atraso na entrega só derruba a avaliação quando passa de 7 dias (de 4,29 para 1,71 estrelas).
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/olist_sql_analytics){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::

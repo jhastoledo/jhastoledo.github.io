@@ -1,0 +1,32 @@
+lang: pt-BR
+project:
+  render:
+    - "*.qmd"
+    - "projetos/**/*.qmd"
+    - "!en/"
+    - "!README.md"
+website:
+  title: "Jhonnes Toledo"
+  description: "Cientista de Dados | Físico (M.Sc. em Ciência dos Materiais). Portfólio de projetos de Ciência de Dados."
+  navbar:
+    left:
+      - text: Início
+        href: index.qmd
+      - text: Sobre
+        href: sobre.qmd
+      - text: Projetos
+        href: projetos.qmd
+      - text: Currículo
+        href: curriculo.qmd
+      - text: Contato
+        href: contato.qmd
+    right:
+      - icon: github
+        href: https://github.com/jhastoledo
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jhastoledo/
+        aria-label: LinkedIn
+      - text: "EN"
+        href: /en/
+        aria-label: "English version"

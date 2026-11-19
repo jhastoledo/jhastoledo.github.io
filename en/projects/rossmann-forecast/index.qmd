@@ -1,0 +1,27 @@
+---
+title: "Rossmann Sales Forecasting"
+description: "Daily sales forecasting for 1,115 stores, 6 weeks ahead: classical statistical models vs. a single global machine learning model."
+categories: [Time series, Machine Learning]
+order: 1
+---
+
+## Problem
+
+Forecast daily sales for 1,115 Rossmann stores 42 days ahead.
+
+## Approach
+
+Comparison between classical statistical models fitted per store and a single global machine learning model trained on all stores.
+
+## Technologies
+
+[Python]{.tag} [pandas]{.tag} [Time series]{.tag} [Machine Learning]{.tag} [Walk-forward validation]{.tag} [Optuna]{.tag} [SHAP]{.tag} [Streamlit]{.tag}
+
+## Results
+
+A single global model (LightGBM) reached **RMSPE 0.1321** and **MAPE 9.7%** on the test set, beating the specialized SARIMAX in 3 of the 4 series compared. The project also documents where the classical model still wins: the 17 stores with atypical behavior.
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/rossmann_forecast){.primary}
+[Back to projects](../../projects.qmd)
+:::

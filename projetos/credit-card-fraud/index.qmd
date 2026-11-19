@@ -1,0 +1,27 @@
+---
+title: "Detecção de fraude em cartões"
+description: "Classificação de transações fraudulentas reais sob desbalanceamento extremo, no benchmark clássico da ULB."
+categories: [Classificação, Machine Learning]
+order: 4
+---
+
+## Problema
+
+Identificar transações fraudulentas de cartão de crédito de portadores europeus (setembro de 2013), em que as fraudes são uma fração mínima do total.
+
+## Abordagem
+
+Tratamento do desbalanceamento extremo e escolha de métricas adequadas ao problema, comparando modelos de classificação.
+
+## Tecnologias
+
+[Python]{.tag} [scikit-learn]{.tag} [Classificação desbalanceada]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag} [Streamlit]{.tag}
+
+## Resultados
+
+Com desbalanceamento de **578:1** em 284.807 transações, o modelo chegou a **PR-AUC 0,826**, recall 0,811 e precisão 0,951 no limiar 0,264, escolhido pela curva precisão-recall e não pelo padrão de 0,5. O PR-AUC foi usado no lugar do ROC-AUC, que engana sob desbalanceamento extremo.
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/credit_card_fraud){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::

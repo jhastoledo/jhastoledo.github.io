@@ -1,0 +1,27 @@
+---
+title: "Olist Reviews NLP"
+description: "Predicting review scores (1–5★) from Portuguese review text: TF-IDF + classical models vs. fine-tuned BERTimbau."
+categories: [NLP, Deep Learning]
+order: 2
+---
+
+## Problem
+
+Predict the review score (ordinal target, 1 to 5 stars) from text written by customers of a Brazilian e-commerce, and understand what drives the most severe complaints.
+
+## Approach
+
+Classical approach (TF-IDF with Logistic Regression, SVM and LightGBM) compared with fine-tuning a Portuguese transformer (BERTimbau), plus topic extraction from complaints.
+
+## Technologies
+
+[Python]{.tag} [scikit-learn]{.tag} [LightGBM]{.tag} [Transformers]{.tag} [BERTimbau]{.tag} [PyTorch]{.tag} [Streamlit]{.tag}
+
+## Results
+
+Fine-tuned BERTimbau reached **QWK 0.8640**, versus 0.8169 for TF-IDF + SVM. But the SVM is about **147x faster** at inference and needs no GPU, and the project records that trade-off, not just the winner.
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/olist_reviews_nlp){.primary}
+[Back to projects](../../projects.qmd)
+:::

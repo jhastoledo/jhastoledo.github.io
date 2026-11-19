@@ -1,0 +1,28 @@
+---
+title: "Projetos"
+description: "Projetos de Ciência de Dados, do problema de negócio ao resultado. O código completo de cada um está no GitHub."
+listing:
+  id: lista
+  contents: projetos/*/index.qmd
+  type: grid
+  grid-columns: 3
+  sort: "order"
+  categories: true
+  fields: [title, description, categories]
+  filter-ui: false
+  sort-ui: false
+---
+
+::: {#lista}
+:::
+
+## Mais projetos
+
+| Projeto | Tema |
+|---|---|
+| [co2_emissions_canada](https://github.com/jhastoledo/co2_emissions_canada) | Regressão: emissão de CO₂ de veículos a partir das especificações |
+| [ibm-attrition](https://github.com/jhastoledo/ibm-attrition) | Classificação: previsão de rotatividade de funcionários |
+| [customer_segmentation_online_retail](https://github.com/jhastoledo/customer_segmentation_online_retail) | Segmentação de clientes e análise RFM em e-commerce |
+| [customer-segmentation-mall](https://github.com/jhastoledo/customer-segmentation-mall) | Clusterização de clientes |
+| [wine_quality_capstone](https://github.com/jhastoledo/wine_quality_capstone) | Qualidade de vinhos a partir de propriedades físico-químicas |
+| [california_housing](https://github.com/jhastoledo/california_housing) | Regressão com dados do censo da Califórnia |

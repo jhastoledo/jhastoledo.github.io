@@ -1,0 +1,30 @@
+lang: en-US
+project:
+  output-dir: _site-en
+  render:
+    - "en/**/*.qmd"
+website:
+  title: "Jhonnes Toledo"
+  description: "Data Scientist | Physicist (M.Sc. in Materials Science). Data Science project portfolio."
+  navbar:
+    left:
+      - text: Home
+        href: en/index.qmd
+      - text: About
+        href: en/about.qmd
+      - text: Projects
+        href: en/projects.qmd
+      - text: Resume
+        href: en/resume.qmd
+      - text: Contact
+        href: en/contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/jhastoledo
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jhastoledo/
+        aria-label: LinkedIn
+      - text: "PT"
+        href: /
+        aria-label: "Versão em português"

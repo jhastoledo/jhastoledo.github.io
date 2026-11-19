@@ -1,0 +1,27 @@
+---
+title: "Preço de imóveis em King County"
+description: "Predição do preço de 21.613 casas na região de Seattle, com análise geográfica (GeoPandas + Folium) e otimização com Ray Tune."
+categories: [Regressão, Dados geoespaciais]
+order: 5
+---
+
+## Problema
+
+Prever o preço de venda de 21.613 casas vendidas em King County (região de Seattle) entre 2014 e 2015.
+
+## Abordagem
+
+Análise geográfica com GeoPandas e Folium, transformação logarítmica do alvo e otimização de hiperparâmetros com Ray Tune.
+
+## Tecnologias
+
+[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [Ray Tune]{.tag} [scikit-learn]{.tag} [XGBoost]{.tag} [Optuna]{.tag} [SHAP]{.tag}
+
+## Resultados
+
+O XGBoost otimizado com Ray Tune + Optuna alcançou **R² 0,911** (escala log), **MAPE 11,5%** e MAE de US$ 64.191, contra MAPE de 43,8% do baseline e 19,9% da regressão linear. A análise SHAP mostrou que a vista para a água, presente em só 163 casas, eleva o preço em cerca de 35% quando existe.
+
+::: {.cta}
+[Ver código no GitHub](https://github.com/jhastoledo/house_prices_kc){.primary}
+[Voltar aos projetos](../../projetos.qmd)
+:::

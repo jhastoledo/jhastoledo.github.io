@@ -1,0 +1,13 @@
+---
+title: "Resume"
+---
+
+My resume is currently available in Portuguese. An English version is coming soon.
+
+::: {.cta}
+[Download resume (PDF, Portuguese)](../files/curriculo-jhonnes-toledo.pdf){.primary download="curriculo-jhonnes-toledo.pdf"}
+:::
+
+<object class="pdf-embed" data="../files/curriculo-jhonnes-toledo.pdf" type="application/pdf">
+  <p>Your browser cannot display PDFs here. <a href="../files/curriculo-jhonnes-toledo.pdf">Open the resume as PDF</a>.</p>
+</object>

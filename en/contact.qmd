@@ -1,0 +1,11 @@
+---
+title: "Contact"
+---
+
+I am open to opportunities, conversations about data and networking. The fastest way to reach me is by email.
+
+::: {.cta}
+[contato@jhonnestoledo.com.br](mailto:contato@jhonnestoledo.com.br){.primary}
+[LinkedIn](https://www.linkedin.com/in/jhastoledo/)
+[GitHub](https://github.com/jhastoledo)
+:::

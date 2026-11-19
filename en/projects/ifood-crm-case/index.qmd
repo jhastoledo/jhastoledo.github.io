@@ -1,0 +1,27 @@
+---
+title: "iFood Case: CRM Campaign Optimizer"
+description: "iFood data analyst case: customer analysis and optimization of a CRM marketing campaign."
+categories: [Business, Machine Learning]
+order: 6
+---
+
+## Problem
+
+Increase the return of a marketing campaign by targeting offers to the customers most likely to respond.
+
+## Approach
+
+Exploratory analysis of customer profiles and modeling to prioritize who should receive the campaign.
+
+## Technologies
+
+[Python]{.tag} [pandas]{.tag} [scikit-learn]{.tag} [CRM]{.tag} [Logistic Regression]{.tag} [K-Means]{.tag} [SHAP]{.tag}
+
+## Results
+
+A carefully preprocessed Logistic Regression outperformed XGBoost (**ROC-AUC 0.933**, PR-AUC 0.737, 92% recall). With the threshold chosen for profit (0.45), the campaign goes from **−3,046 MU to +279 MU**, capturing **90% of the maximum possible profit**. K-Means segmentation identified a Premium group with a 31.9% response rate.
+
+::: {.cta}
+[View code on GitHub](https://github.com/jhastoledo/ifood-crm-case){.primary}
+[Back to projects](../../projects.qmd)
+:::

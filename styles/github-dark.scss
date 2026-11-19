@@ -1,0 +1,123 @@
+/*-- scss:defaults --*/
+// Paleta inspirada no GitHub Dark
+$gh-bg:        #0d1117;
+$gh-surface:   #161b22;
+$gh-border:    #30363d;
+$gh-text:      #e6edf3;
+$gh-muted:     #8b949e;
+$gh-blue:      #58a6ff;
+$gh-green:     #3fb950;
+
+$body-bg: $gh-bg;
+$body-color: $gh-text;
+$body-secondary-color: $gh-muted;
+$link-color: $gh-blue;
+$link-hover-color: lighten($gh-blue, 10%);
+$primary: $gh-blue;
+$success: $gh-green;
+$border-color: $gh-border;
+$hr-border-color: $gh-border;
+
+$navbar-bg: $gh-surface;
+$navbar-fg: $gh-text;
+$navbar-hl: $gh-blue;
+$footer-bg: $gh-bg;
+$footer-fg: $gh-muted;
+
+$card-bg: $gh-surface;
+$card-border-color: $gh-border;
+$table-color: $gh-text;
+$table-border-color: $gh-border;
+$code-color: #ff7b72;
+$code-block-bg: $gh-surface;
+
+$font-family-sans-serif: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+.navbar { border-bottom: 1px solid $gh-border; }
+.nav-footer { border-top: 1px solid $gh-border; }
+
+h1, h2, h3 { letter-spacing: -0.01em; }
+h2 { border-bottom: 1px solid $gh-border; padding-bottom: .3rem; }
+
+.lead-mono {
+  font-family: $font-family-monospace;
+  color: $gh-green;
+  font-size: .95rem;
+}
+
+// Botões de chamada para ação
+.cta a {
+  display: inline-block;
+  margin: .25rem .4rem .25rem 0;
+  padding: .45rem 1rem;
+  border: 1px solid $gh-border;
+  border-radius: 6px;
+  background: $gh-surface;
+  color: $gh-text;
+  text-decoration: none;
+  font-weight: 500;
+  &:hover { border-color: $gh-blue; color: $gh-blue; }
+  &.primary { background: #238636; border-color: #2ea043; color: #fff;
+    &:hover { background: #2ea043; color: #fff; } }
+}
+
+// Etiquetas de tecnologias / habilidades
+.tag {
+  display: inline-block;
+  margin: .15rem .2rem .15rem 0;
+  padding: .1rem .6rem;
+  border-radius: 2em;
+  background: rgba($gh-blue, .12);
+  color: $gh-blue;
+  font-size: .85rem;
+  font-family: $font-family-monospace;
+}
+
+// Grade de habilidades
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+  > div {
+    background: $gh-surface;
+    border: 1px solid $gh-border;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+  h4 { margin-top: 0; font-size: 1rem; color: $gh-text; }
+}
+
+// Cartões da listagem de projetos
+.quarto-grid-item.card {
+  background: $gh-surface;
+  border: 1px solid $gh-border;
+  &:hover { border-color: $gh-blue; }
+}
+.listing-categories .listing-category,
+.quarto-listing-category .category {
+  border-color: $gh-border;
+  color: $gh-muted;
+}
+
+.callout { background: $gh-surface; }
+
+.pdf-embed {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid $gh-border;
+  border-radius: 6px;
+}
+
+// Foto do "sobre"
+.about-entity .about-image { border: 2px solid $gh-border; }
+
+// Lista de destaques sem imagem: ocupa toda a largura
+.quarto-listing-default .quarto-post .thumbnail { display: none; }
+.quarto-listing-default .quarto-post .body { flex-basis: 100%; }
+.quarto-listing-default .listing-title { font-weight: 600; color: $gh-blue; }
